@@ -8,3 +8,5 @@
 .embedded header,.embedded .intro,.embedded footer{display:none}.embedded .toolbar{margin-top:12px}.embedded .shell{padding:0 12px;max-width:none}.embedded .explore{min-height:460px}.embedded .map-wrap{min-height:460px}.embedded #detail{max-height:460px}
 
 .card-city{display:block}.promo>a{display:inline-block;font-size:10px;margin-top:7px;color:var(--gold)}
+
+@media(max-width:760px){.toolbar{display:grid;grid-template-columns:1fr 1.35fr}.toolbar .search{grid-column:1/-1}.toolbar>label{min-width:0}.toolbar select,.toolbar #country{max-width:100%;width:100%}.toolbar label:has(#country){border-right:0}.toolbar .offer-toggle{padding:11px 8px;margin-left:0;font-size:11px}.toolbar .reset{display:block;justify-self:end;padding:11px 8px}.embedded #detail{max-height:none}}

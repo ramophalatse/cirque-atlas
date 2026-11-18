@@ -27,7 +27,7 @@ function selectRun(id,{pan=false,scroll=false}={}){
  if(scroll&&innerWidth<761)$('detail').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
  const url=new URL(location);url.searchParams.set('show',r.id);url.searchParams.set('period',$('period').value);history.replaceState(null,'',url);
 }
-function fit(){if(!map||!visible.length)return;const bounds=L.latLngBounds(visible.map(r=>[r.lat,r.lng]));map.fitBounds(bounds,{padding:[65,95],maxZoom:visible.length===1?8:4,animate:false});}
+function fit(){if(!map||!visible.length)return;const bounds=L.latLngBounds(visible.map(r=>[r.lat,r.lng]));map.stop();map.fitBounds(bounds,{padding:innerWidth<761?[30,75]:[65,95],maxZoom:visible.length===1?8:4,animate:false});}
 function render(){
  visible=filterRuns(dataset.runs,opts()).sort((a,b)=>a.city.localeCompare(b.city)||a.name.localeCompare(b.name));
  $('count').textContent=`${visible.length} ${visible.length===1?'engagement':'engagements'} · ${groupLocations(visible).length} locations`;
@@ -56,11 +56,11 @@ try{
  if(daysOld>2){$('freshness').hidden=false;$('freshness').textContent=`This snapshot is ${Math.floor(daysOld)} days old. Recheck show dates and offers with the official seller before planning.`;}
  [...new Set(dataset.runs.map(r=>r.country))].sort((a,b)=>countryName(a).localeCompare(countryName(b))).forEach(code=>{const o=new Option(countryName(code),code);$('country').add(o);});
  if(window.L){
-  map=L.map('map',{zoomControl:true,minZoom:1,zoomSnap:.25,zoomDelta:.5,maxZoom:16,worldCopyJump:false,maxBounds:[[-70,-190],[85,190]],maxBoundsViscosity:.8,scrollWheelZoom:false});
+  map=L.map('map',{zoomControl:true,minZoom:0,zoomSnap:.25,zoomDelta:.5,maxZoom:16,worldCopyJump:false,maxBounds:[[-70,-190],[85,190]],maxBoundsViscosity:.8,scrollWheelZoom:false});
   let tileErrors=0,tilesLoaded=0;
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,noWrap:true,bounds:[[-85,-180],[85,180]],attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).on('tileerror',()=>{if(++tileErrors>6&&!tilesLoaded)$('mapFallback').hidden=false;}).on('tileload',()=>{tilesLoaded++;$('mapFallback').hidden=true;}).addTo(map);
   layer=L.layerGroup().addTo(map);
-  new ResizeObserver(()=>map.invalidateSize()).observe($('map'));
+  new ResizeObserver(()=>{map.invalidateSize();fit();}).observe($('map'));
  }else{$('mapFallback').hidden=false;}
  selected=query.get('show')||'14421';render();
  form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('input',render);form.addEventListener('reset',e=>{e.preventDefault();$('search').value='';$('period').value='now';$('country').value='';$('deals').checked=false;selected=null;render();});$('fit').addEventListener('click',fit);
