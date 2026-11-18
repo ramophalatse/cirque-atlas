@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-18T05:07:08.652Z",
+  "checkedAt": "2026-11-18T14:17:52.401Z",
   "catalogueCount": 18,
   "sources": [
     "https://www.cirquedusoleil.com/shows",
@@ -367,20 +367,6 @@
           "url": "https://www.ticketmaster.com.mx/gran-carpa-santa-fe-boletos-mexico/venue/499872",
           "dateNote": "",
           "promotion": false,
-          "groupOnly": false,
-          "upgrade": false
-        },
-        {
-          "title": "El Buen Fin Offer",
-          "description": "Save up to 40% for ECHO tickets",
-          "category": "Deals",
-          "price": "",
-          "text": "",
-          "terms": "",
-          "conditions": [],
-          "url": "https://www.ticketmaster.com.mx/explore/buenfin40desccds",
-          "dateNote": "",
-          "promotion": true,
           "groupOnly": false,
           "upgrade": false
         }
