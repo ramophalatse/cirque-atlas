@@ -1,0 +1,30 @@
+{
+  "14421": {
+    "price": "USD 59\u2013193",
+    "note": "Standard seat categories 1\u20134. Box office service fee included; Live Entertainment Tax extra. VIP package: USD 285 including taxes and fees.",
+    "source": "https://treasureisland.com/entertainment/mystere-by-cirque-du-soleil",
+    "checkedAt": "2026-11-18",
+    "validUntil": "2026-12-02"
+  },
+  "14216": {
+    "price": "From EUR 44.90",
+    "note": "Official ALIZ\u00c9 FAQ starting price. Upper range unpublished; seat category and date determine final price.",
+    "source": "https://alize.show/en/faq",
+    "checkedAt": "2026-11-18",
+    "validUntil": "2026-12-02"
+  },
+  "14477": {
+    "price": "From AUD 79",
+    "note": "Starting price in the City of Sydney listing submitted by the organiser. Upper range unpublished; check dates and ticket fees.",
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/cirque-du-soleil-kooza",
+    "checkedAt": "2026-11-18",
+    "validUntil": "2026-12-02"
+  },
+  "14282": {
+    "price": "From EUR 45.50",
+    "note": "Starting price at official seller El Corte Ingl\u00e9s. Upper range unpublished. This is the seller\u2019s advertised rate, separate from Cirque\u2019s Black Friday offer.",
+    "source": "https://www.elcorteingles.es/entradas/teatro/entradas-cirque-du-soleil-kurios-madrid-2026-madrid-expertus_centrocomercial-channel/",
+    "checkedAt": "2026-11-18",
+    "validUntil": "2026-12-02"
+  }
+}
