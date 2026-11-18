@@ -4,7 +4,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const safeUrl=u=>{try{const v=new URL(u);return v.protocol==='https:'?esc(v.href):'#';}catch{return '#';}};
 const link=(u,text,cls='')=>`<a class="${cls}" href="${safeUrl(u)}" target="_blank" rel="noopener noreferrer">${text}</a>`;
 const countryName=code=>{try{return new Intl.DisplayNames(['en'],{type:'region'}).of(code==='UK'?'GB':code);}catch{return code;}};
-const colors={resident:'#88b8ad',tour:'#d4b780',seasonal:'#d99d9c'};
+const colors={resident:'#f2e7bb',tour:'#dca85d',seasonal:'#d4a1ed'};
 let dataset,visible=[],selected,markers=[],layer,map;
 const opts=()=>({period:$('period').value,country:$('country').value,search:$('search').value.trim(),deals:$('deals')?.checked||false});
 const form=$('filters');
