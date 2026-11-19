@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-18T14:17:52.401Z",
+  "checkedAt": "2026-11-19T14:33:00.220Z",
   "catalogueCount": 18,
   "sources": [
     "https://www.cirquedusoleil.com/shows",
@@ -20,8 +20,8 @@
       "start": "2026-11-19",
       "end": "2026-12-13",
       "dates": "Nov 19 - Dec 13, 2026",
-      "status": "On Sale",
-      "isPlaying": false,
+      "status": "Now Performing",
+      "isPlaying": true,
       "comingSoon": false,
       "currency": "BRL",
       "startingPrice": null,
@@ -29,7 +29,7 @@
       "priceNote": "Price range is not published in the show feed. Check the official ticket calendar.",
       "bookingUrl": "https://www.cirquedusoleil.com/brazil/curitiba/alegria/buy-tickets",
       "showUrl": "https://www.cirquedusoleil.com/alegria",
-      "image": "https://www.cirquedusoleil.com/-/media/cds/images/shows/alegria/revamp-2024/thumbnails/alegria_thumb_454x454.jpg?db=web&vs=2&sc_lang=en&hash=44577814FE833CAB7BE38E17FBD0000E",
+      "image": "https://www.cirquedusoleil.com/-/media/cds/images/shows/alegria/revamp-2024/thumbnails/alegria_thumb_454x454.jpg?db=web&vs=2&hash=6CA4FB27C6FD3437358FF13F07E75BBA",
       "imageAlt": "Alegria - Show - Cirque du Soleil",
       "offers": [
         {
@@ -73,7 +73,7 @@
       "priceNote": "Price range is not published in the show feed. Check the official ticket calendar.",
       "bookingUrl": "https://www.cirquedusoleil.com/chile/santiago/alegria/buy-tickets",
       "showUrl": "https://www.cirquedusoleil.com/alegria",
-      "image": "https://www.cirquedusoleil.com/-/media/cds/images/shows/alegria/revamp-2024/thumbnails/alegria_thumb_454x454.jpg?db=web&vs=2&sc_lang=en&hash=44577814FE833CAB7BE38E17FBD0000E",
+      "image": "https://www.cirquedusoleil.com/-/media/cds/images/shows/alegria/revamp-2024/thumbnails/alegria_thumb_454x454.jpg?db=web&vs=2&hash=6CA4FB27C6FD3437358FF13F07E75BBA",
       "imageAlt": "Alegria - Show - Cirque du Soleil",
       "offers": [
         {
@@ -117,7 +117,7 @@
       "priceNote": "Price range is not published in the show feed. Check the official ticket calendar.",
       "bookingUrl": "https://www.cirquedusoleil.com/canada/calgary/alegria/buy-tickets",
       "showUrl": "https://www.cirquedusoleil.com/alegria",
-      "image": "https://www.cirquedusoleil.com/-/media/cds/images/shows/alegria/revamp-2024/thumbnails/alegria_thumb_454x454.jpg?db=web&vs=2&sc_lang=en&hash=44577814FE833CAB7BE38E17FBD0000E",
+      "image": "https://www.cirquedusoleil.com/-/media/cds/images/shows/alegria/revamp-2024/thumbnails/alegria_thumb_454x454.jpg?db=web&vs=2&hash=6CA4FB27C6FD3437358FF13F07E75BBA",
       "imageAlt": "Alegria - Show - Cirque du Soleil",
       "offers": []
     },
@@ -158,6 +158,20 @@
             "Maximum 9 tickets"
           ],
           "url": "https://tickets.cirquedusoleil.com/shop/#/cd945572-a182-4f66-b18e-4060f9726752/shop/select?locale=en&skin=alize_v2",
+          "dateNote": "",
+          "promotion": false,
+          "groupOnly": false,
+          "upgrade": false
+        },
+        {
+          "title": "VIP package",
+          "description": "Exclusive seats with an especially good view of the event. Access to the VIP lounge with drinks and an exclusive cloakroom area from 60 minutes before the show and during the interval. Programme booklet with all key information and highlights. High-quality keyring with Collector Card as a special souvenir.",
+          "category": "Regular",
+          "price": "",
+          "text": "",
+          "terms": "",
+          "conditions": [],
+          "url": "https://tickets.cirquedusoleil.com/shop/#/c1fc79d4-94c0-4b89-ad4c-0cb5ea431eb1/shop/select?locale=en&skin=alize_v2",
           "dateNote": "",
           "promotion": false,
           "groupOnly": false,
@@ -3042,8 +3056,8 @@
       "start": "2026-11-19",
       "end": "2026-11-22",
       "dates": "Nov 19-22, 2026",
-      "status": "On Sale",
-      "isPlaying": false,
+      "status": "Now Performing",
+      "isPlaying": true,
       "comingSoon": false,
       "currency": "EUR",
       "startingPrice": null,
@@ -5288,8 +5302,8 @@
       "start": "2026-11-19",
       "end": "2026-11-19",
       "dates": "Nov 19, 2026",
-      "status": "On Sale",
-      "isPlaying": false,
+      "status": "Now Performing",
+      "isPlaying": true,
       "comingSoon": false,
       "currency": "USD",
       "startingPrice": null,
@@ -6023,6 +6037,20 @@
           "url": "https://www.ticketmaster.com/twas-the-night-before-by-cirque/artist/2663490?&venueId=65547",
           "dateNote": "",
           "promotion": false,
+          "groupOnly": false,
+          "upgrade": false
+        },
+        {
+          "title": "Black Friday Offer",
+          "description": "Save up to 25% on your TWAS Detroit tickets with the code DEALS",
+          "category": "Deals",
+          "price": "",
+          "text": "",
+          "terms": "",
+          "conditions": [],
+          "url": "https://www.ticketmaster.com/twas-the-night-before-by-cirque-tickets/artist/2663490?venueId=65547&list_view=1",
+          "dateNote": "",
+          "promotion": true,
           "groupOnly": false,
           "upgrade": false
         },
