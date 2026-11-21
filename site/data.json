@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-20T14:10:00.980Z",
+  "checkedAt": "2026-11-21T13:35:20.496Z",
   "catalogueCount": 18,
   "sources": [
     "https://www.cirquedusoleil.com/shows",
@@ -5281,66 +5281,6 @@
             "Minimum 10 tickets"
           ],
           "url": "https://www.cirquedusoleil.com/usa/providence/twas-the-night-before/buy-tickets",
-          "dateNote": "",
-          "promotion": true,
-          "groupOnly": true,
-          "upgrade": false
-        }
-      ]
-    },
-    {
-      "id": "14554",
-      "slug": "twas-the-night-before",
-      "name": "'Twas the Night Before...",
-      "city": "Saginaw, MI",
-      "country": "US",
-      "venue": "Dow Event Center",
-      "address": "303 Johnson St, Saginaw, MI 48607, United States",
-      "lat": 43.43586,
-      "lng": -83.936235,
-      "kind": "seasonal",
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "dates": "Nov 19, 2026",
-      "status": "Now Performing",
-      "isPlaying": true,
-      "comingSoon": false,
-      "currency": "USD",
-      "startingPrice": null,
-      "price": "",
-      "priceNote": "Price range is not published in the show feed. Check the official ticket calendar.",
-      "bookingUrl": "https://www.cirquedusoleil.com/usa/saginaw/twas-the-night-before/buy-tickets",
-      "showUrl": "https://www.cirquedusoleil.com/twas-the-night-before",
-      "image": "https://www.cirquedusoleil.com/-/media/cds/images/shows/twas-the-night-before/thumbnail/twas_thumbnail_454x454.jpg?db=web&vs=1&hash=066BFF88BBA8EE781FA8E2CDA5328449",
-      "imageAlt": "'Twas the Night Before...",
-      "offers": [
-        {
-          "title": "Regular Tickets",
-          "description": "All tickets categories",
-          "category": "Regular",
-          "price": "",
-          "text": "",
-          "terms": "",
-          "conditions": [
-            "Maximum 9 tickets"
-          ],
-          "url": "https://www.ticketmaster.com/event/08006503BCCE74D5",
-          "dateNote": "",
-          "promotion": false,
-          "groupOnly": false,
-          "upgrade": false
-        },
-        {
-          "title": "Standard Group Offer",
-          "description": "Save on booking of 10 tickets or more.",
-          "category": "Groups",
-          "price": "",
-          "text": "Special Group Rates",
-          "terms": "",
-          "conditions": [
-            "Minimum 10 tickets"
-          ],
-          "url": "https://www.cirquedusoleil.com/usa/saginaw/twas-the-night-before/buy-tickets",
           "dateNote": "",
           "promotion": true,
           "groupOnly": true,
